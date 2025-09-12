@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kunal Barua — Resume</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header data-aos="fade-down">
+    <h1>Kunal Barua</h1>
+    <p>Accounts Receivable Analyst • MBA • RCM Specialist</p>
+    <nav>
+      <a href="#summary">Summary</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <!-- Dark mode toggle -->
+    <button id="theme-toggle">🌙 Dark Mode</button>
+  </header>
+
+  <section id="summary" class="section" data-aos="fade-up">
+    <img src="photo1.jpg" alt="Kunal Barua">
+    <div class="text">
+      <h2 data-aos="fade-up">Professional Summary</h2>
+      <p>
+        Accounts Receivable Analyst with expertise in RCM, Excel, Power BI, and SQL. Skilled at reducing errors, 
+        improving collection efficiency, and creating data-driven dashboards for financial analysis.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Kunal Barua — Resume Website
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1200, once: false });
+
+    // Dark Mode Toggle
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      if(document.body.classList.contains('dark')) {
+        toggleBtn.textContent = '☀️ Light Mode';
+      } else {
+        toggleBtn.textContent = '🌙 Dark Mode';
+      }
+    });
+  </script>
+</body>
+</html>
