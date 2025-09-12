@@ -20,10 +20,10 @@
       <a href="#certifications">Certifications</a>
       <a href="#contact">Contact</a>
     </nav>
-    <!-- Dark mode toggle -->
     <button id="theme-toggle">🌙 Dark Mode</button>
   </header>
 
+  <!-- Summary -->
   <section id="summary" class="section" data-aos="fade-up">
     <img src="photo1.jpg" alt="Kunal Barua">
     <div class="text">
@@ -35,6 +35,144 @@
     </div>
   </section>
 
+  <!-- Experience -->
+  <section id="experience" class="section" data-aos="fade-up">
+    <h2 data-aos="fade-up">Experience</h2>
+    <div class="timeline">
+      <div class="item" data-aos="fade-right">
+        <img src="exp1.png" alt="Renvio Logo">
+        <div>
+          <h3>Accounts Receivable Analyst — Renvio</h3>
+          <p>2023 – Present</p>
+          <ul>
+            <li>Processed $2M+ monthly transactions with 90% error reduction.</li>
+            <li>Improved collection efficiency by 20% using Power BI dashboards.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="item" data-aos="fade-left">
+        <img src="exp2.png" alt="Pacific Global Logo">
+        <div>
+          <h3>Accounts Receivable Analyst — Pacific Global Inc.</h3>
+          <p>2021 – 2023</p>
+          <ul>
+            <li>Reduced claim rejections by 20% via systematic follow-ups.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="item" data-aos="fade-right">
+        <img src="exp3.png" alt="Tech Mahindra Logo">
+        <div>
+          <h3>Customer Service Associate — Tech Mahindra</h3>
+          <p>2019 – 2021</p>
+          <ul>
+            <li>Delivered excellent customer service and query resolution.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="item" data-aos="fade-left">
+        <img src="exp4.png" alt="Benign Capital Logo">
+        <div>
+          <h3>Digital Marketing Intern — Benign Capital</h3>
+          <p>2018 – 2019</p>
+          <ul>
+            <li>Executed campaigns that improved client engagement by 15%.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <h2 data-aos="fade-up">Skills</h2>
+    <ul>
+      <li>Advanced Excel & Power BI</li>
+      <li>SQL & Data Visualization</li>
+      <li>Revenue Cycle Management (RCM)</li>
+      <li>Payment Posting & AR follow-up</li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section" data-aos="fade-up">
+    <h2 data-aos="fade-up">Education</h2>
+    <div class="timeline">
+      <div class="item" data-aos="fade-right">
+        <img src="edu1.png" alt="Chandigarh University">
+        <div>
+          <h3>MBA — Chandigarh University</h3>
+          <p>2023–2025</p>
+        </div>
+      </div>
+      <div class="item" data-aos="fade-left">
+        <img src="edu2.png" alt="CCS University">
+        <div>
+          <h3>B.Com — CCS University</h3>
+          <p>2019–2022</p>
+        </div>
+      </div>
+      <div class="item" data-aos="fade-right">
+        <img src="edu3.png" alt="Dr K.N Modi Global School">
+        <div>
+          <h3>12th — Dr K.N Modi Global School</h3>
+          <p>2019</p>
+        </div>
+      </div>
+      <div class="item" data-aos="fade-left">
+        <img src="edu4.png" alt="Muradnagar Public School">
+        <div>
+          <h3>10th — Muradnagar Public School</h3>
+          <p>2017</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="section" data-aos="fade-up">
+    <h2 data-aos="fade-up">Certifications & Projects</h2>
+    <div class="timeline">
+      <div class="item" data-aos="fade-right">
+        <img src="cert1.png" alt="NISM Logo">
+        <div>
+          <h3>NISM SEBI Investor Certification</h3>
+          <p>2025</p>
+        </div>
+      </div>
+      <div class="item" data-aos="fade-left">
+        <img src="cert2.png" alt="CCC Logo">
+        <div>
+          <h3>CCC — NIELIT</h3>
+          <p>2022</p>
+        </div>
+      </div>
+      <div class="item" data-aos="fade-right">
+        <img src="cert3.png" alt="Google Logo">
+        <div>
+          <h3>Google Digital Marketing</h3>
+          <p>2020</p>
+        </div>
+      </div>
+      <div class="item" data-aos="fade-left">
+        <img src="cert4.png" alt="Excel Logo">
+        <div>
+          <h3>Advanced Excel Certification</h3>
+          <p>2019</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2 data-aos="fade-up">Contact</h2>
+    <p>Email: <a href="mailto:kunalbarua.kb46@gmail.com">kunalbarua.kb46@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918126604601">+91 81266 04601</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/kunal-barua/" target="_blank">linkedin.com/in/kunal-barua</a></p>
+    <p>WhatsApp: <a href="https://wa.me/918126604601?text=Hi%20Kunal" target="_blank">Message Me</a></p>
+  </section>
+
   <footer>
     © 2025 Kunal Barua — Resume Website
   </footer>
@@ -42,8 +180,6 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({ duration: 1200, once: false });
-
-    // Dark Mode Toggle
     const toggleBtn = document.getElementById('theme-toggle');
     toggleBtn.addEventListener('click', () => {
       document.body.classList.toggle('dark');
